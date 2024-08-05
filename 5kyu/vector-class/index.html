@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vector class</title>
+</head>
+<body>
+    <h3>Create a Vector object that supports addition, subtraction, dot products, and norms. So, for example<h3>
+    <h4>var a = new Vector([1, 2, 3]);</br>
+        var b = new Vector([3, 4, 5]);</br>
+        var c = new Vector([5, 6, 7, 8]);</br>
+        
+        a.add(b);      // should return a new Vector([4, 6, 8])</br>
+        a.subtract(b); // should return a new Vector([-2, -2, -2])</br>
+        a.dot(b);      // should return 1*3 + 2*4 + 3*5 = 26</br>
+        a.norm();      // should return sqrt(1^2 + 2^2 + 3^2) = sqrt(14)</br>
+        a.add(c);      // throws an error</h4>
+    <h3>If you try to add, subtract, or dot two vectors with different lengths, you must throw an error!
+
+        Also provide:
+        
+        a toString method, so that using the vectors from above, a.toString() === '(1,2,3)' (in Python, this is a __str__ method, so that str(a) == '(1,2,3)')
+        an equals method, to check that two vectors that have the same components are equal
+        Note: the test cases will utilize the user-provided equals method.</h3>
+    <img src="tumblr_23aeddb708617b80bebb26c4a8794821_d288bda1_500.png" alt="what i'd rather do instead of figuring this out">
+    <script src="main.js"></script>
+</body>
+</html>
